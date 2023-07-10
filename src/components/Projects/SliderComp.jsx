@@ -7,21 +7,25 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 let data = [
   {
-      img : "https://i.ibb.co/jwdFtgX/tiktok12.png",
-      desc : "Levei uma conta no TikTok do ZERO aos 10Milhões de views e 1Milhão de likes em menos de 5meses",
+      img: "https://i.ibb.co/jwdFtgX/tiktok12.png",
+      desc: "Levei uma conta no TikTok do ZERO aos 10Milhões de views e 1Milhão de likes em menos de 5meses",
       more: false,
   },
   {
-      img : "https://i.ibb.co/YkRCLs2/blindagem1.png",
-      desc : "Produção de videos de formato curto para uma loja de informática"
+      img: "https://i.ibb.co/YkRCLs2/blindagem1.png",
+      desc: "Produção de videos de formato curto para uma loja de informática"
   },
   {
-      img : "https://res.cloudinary.com/ghazni/image/upload/v1661323981/Yt-portfolio/ui2_wtollo.png",
-      desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+      img: "https://i.ibb.co/N1VyT5r/animeworldmap.png",
+      desc: "Projeto consumindo API do google maps, criando um mapa customizado utilizando apenas HTML, CSS e Javascript",
+      more: true,
+      moreLink: "https://robex-custom-map.surge.sh/"
   },
   {
-      img : "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png",
-      desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+      img: "https://i.ibb.co/SBWDV0D/marketplace.png",
+      desc: "Marketplace criado para portifólio, com multiplas telas e algumas funcionalidades de checkout utilizando React, Bootstrap, Styled Components, ContextAPI e outras tecnologias.",
+      more: true,
+      moreLink: "https://github.com/robex99/dreamprice-marketplace"
   },
 ];
 

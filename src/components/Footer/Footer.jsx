@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp } from "react-icons/ai";
-import { BsFacebook, BsSlack } from "react-icons/bs";
 import { FiPhoneCall } from "react-icons/fi";
+import { MdOutlineLocationOn } from "react-icons/md"
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
 
 export default function Footer () {
@@ -20,6 +20,14 @@ export default function Footer () {
           <Slide direction="left">
             <h1>Entre em contato:</h1>
           </Slide>
+          <div>
+            <span>
+            <MdOutlineLocationOn/>
+            </span>
+            <Slide direction="left">
+              <a>Rio de Janeiro, RJ - Brasil</a>
+            </Slide>
+          </div>
           <div>
             <span>
               <FiPhoneCall />

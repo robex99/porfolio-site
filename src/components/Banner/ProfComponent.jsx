@@ -11,7 +11,15 @@ export default function ProfComponent() {
             <h4>Olá,  <span className='blue'>Eu sou o</span></h4>
             <h1 className='blue'>Robex</h1>
             <h3>Desenvolvedor Web e Editor</h3>
-            <p>Todo o site foi criado por mim, utilizando o React</p>
+        </Texts>
+        <Profile>
+          <img
+            src={my_pic}
+            alt="profile"
+          />
+        </Profile>
+        <Texts2>
+        <p>Todo o site foi codado por mim, utilizando o React</p>
             <a href='#contact'>
               <button>
                 Fale comigo!
@@ -28,19 +36,15 @@ export default function ProfComponent() {
               </span>
             </div>
           </Social>
-        </Texts>
-        <Profile>
-          <img
-            src={my_pic}
-            alt="profile"
-          />
-        </Profile>
+        </Texts2>
+       
     </Container>
   )
 }
 
 const Container = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
   padding-top: 3rem;
   width: 80%;
@@ -48,10 +52,12 @@ const Container = styled.div`
   margin: 0 auto;
   z-index: 1;
   @media (max-width: 840px) {
+    display: flex;
     width: 90%;
   }
 
   @media (max-width: 640px) {
+    display: flex;
     flex-direction: column;
   }
 `
@@ -72,6 +78,11 @@ const Texts = styled.div`
     font-size: 1.2rem;
     padding-bottom: 1.2rem;
   }
+`
+const Texts2 = styled.div`
+  flex: 1;
+  text-align: right;
+  margin: 2rem 0 0 2rem;
   p {
     font-weight: 300;
   }
@@ -92,6 +103,7 @@ const Texts = styled.div`
 `
 
 const Social = styled.div`
+  justify-content: right;
   margin-top: 3rem;
   display: flex;
   align-items: center;

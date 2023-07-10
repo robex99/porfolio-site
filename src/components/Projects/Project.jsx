@@ -9,7 +9,7 @@ export default function Project(props) {
         <div className="desc">
             <h1>Descrição</h1>
             <p>{desc}
-            {more ? <a href={moreLink}>Ver mais</a> : <></>}
+            {more ? <a href={moreLink} target="_blank" rel="noreferrer">Ver mais</a> : <></>}
             </p>
         </div>
     </Container>
